@@ -42,10 +42,10 @@
                     operate only when needed.
                 </p>
                 <p>
-                    Built with sustainability in mind, our smart streetlight controller prioritizes ambient light conditions over 
+                    Built with sustainability in mind, the smart streetlight controller prioritizes ambient light conditions over 
                     fixed time schedules, avoiding unnecessary activation during daylight hours. The system operates within a 
                     flexible night window (6 PM to 7 AM) and includes safeguards for rare daytime extreme darkness conditions 
-                    such as storms. Even if its night time, yet it still bright enough our systems keeps the lights OFF.
+                    such as storms. Even if its night time, yet it is still bright enough our systems keeps the lights OFF.
                 </p>
                 
             </p>
@@ -81,13 +81,13 @@
         <div class="flex-row">
           <div class="flex-item flex-column">
             <p class="text add-top-margin">
-              The current street lighting system operates on a fixed schedule, turning lights on or off at 
+              The current street lighting systems operate on  fixed schedules, turning lights ON or OFF at 
               predetermined times without accounting for actual ambient light levels. This approach leads to 
-              energy inefficiency and reduced reliability, as lights may remain on when there is sufficient natural 
-              daylight or turn off while it is still dark or even stay off during day hours yet it’s a dark day for 
+              energy inefficiency and reduced reliability, as lights  remain on when there is sufficient natural 
+              daylight or turn OFF while it is still dark or even stay OFF during day hours yet it’s a dark day for 
               example in a storm. Additionally, the lights operate at full brightness throughout the night, even 
               during periods when there is no activity going on. During stormy or overcast daytime conditions, the 
-              lights remain off despite reduced visibility. 
+              lights remain OFF despite reduced visibility. 
             </p>
             <h3>Table of Content</h3>
             <ul>
@@ -139,8 +139,8 @@
             <hr>
             <p class="text">
               The Lights are OFF in the first photo because its bright, in the scenario the lights are ON in full
-              brightness because we created artificial extreme darkness around the LDR sensor and motion was detected by our PIR sensor
-              thus turning ON the lights, that mimics the extreme darkness on some days. its day time but darkn, so our system turns on 
+              brightness because we created artificial extreme darkness around the LDR sensor and motion was detected by the PIR sensor
+              thus turning ON the lights, that mimics the extreme darkness on some days. Its day time but dark, so the system turns on 
               lights such that road users have enough light to progress with their activities.
             </p>
           </div>
@@ -160,9 +160,9 @@
         <div class="flex-row">
           <div class="flex-item flex-column">
             <p class="text">
-              If our lights are ON because its night time and dark or its day time with extreme darkness for example during a storm.
-              Our system turns on lights to a dimmed level of brightness if no motion detected in order to save energy. usually late in 
-              the late no one is moving or using the road so our system dims the lights to save power and goes to full brightness when 
+              If the lights are ON because its night time and dark or its day time with extreme darkness for example during a storm.
+              The system turns on lights to a dimmed level of brightness if no motion detected in order to save energy and full brightness when motion is detected.
+              Usually late in the night for example midnight  no one is moving or using the road so our system dims the lights to save power and goes to full brightness when 
               any motion is detected to support the person using the road at that moment.
             </p>
           </div>
@@ -178,7 +178,7 @@
               <img class="image image-wrap-text max-width-400" src="img/dummy-background.jpeg">
                The controller uses an ESP32 to process inputs from an LDR (ambient light),
                 PIR (motion),and DS3231 RTC(time),controlling a 10mm LED with PWM dimming.
-                The LED activates only when dark (LDR > 2000)
+                The LED activates only when dark (LDR > 2500)
                 during 6 PM–7 AM or in extreme darkness (LDR > 3500) during daytime, with
                 brightness at 50% (no motion) or 100% (motion).
 
@@ -217,9 +217,9 @@
             <hr>
             <p class="text">
               The system is made up of an ESP32 microcontroller that works as the computer of the system. It has a Passive Infra Red (PIR) sensor
-              that detects motion such if the Lights are on it switches to full brightness and dims when no motion is detected. It has a Light Dependent Resistor whose resistance
-              increases as the darkness levels increase, so its used to detect darkness or brigthness. It has a Real Time Clock (RTC) module used to keep track of the current time and date.
-              It has two LED ligts to act as streetlights that turn on when all conditions are meant. The system uses a potentiometer to vary the resistance through the LDR 
+              that detects motion such if the Lights are ON, it switches to full brightness and dims when no motion is detected. It has a Light Dependent Resistor whose resistance
+              increases as the darkness levels increase, so its used to detect darkness. It has a Real Time Clock (RTC) module used to keep track of the current time and date.
+              It has two LED ligts to act as streetlights that turn on when all conditions are meant. The system uses a potentiometer to vary the resistance through the LDR.
 
             </p>
             <p class="text text-center graph-title">
@@ -269,7 +269,7 @@
           <div class="flex-item flex-column">
             <h2 class="add-top-margin-small">A photo of our system when lights are ON</h2>
             <p class="text">
-              Our system add intelligence in controlling streetlights, turns when needed and dims if no activity going on
+              This system adds intelligence in controlling streetlights, turns ON when needed and dims if no activity is going on
               This is the future of streetlights.
             </p>
           </div>
@@ -447,10 +447,10 @@
             <h2 id="survey">Survey</h2>
             <hr>
             <p class="text">
-              Feel free to participate in our Project survey
+              Feel free to participate in the Project survey study.Please!
             </p>
             <div class="custom-survey add-top-margin add-bottom-margin">
-              <span class="text">1. Our system is capable of making streetlights more efficient.</span>
+              <span class="text">1. This system is capable of making streetlights more efficient.</span>
               <div class="custom-radio-group-survey add-top-margin">
                 <div><input type="radio" name="scenario-question-sq-1508-scale" value="2596" id="scenario-question-sq-1508-item-0"> <label class="break-long-url" for="scenario-question-sq-1508-item-0">Strongly Agree</label></div>
                 <div><input type="radio" name="scenario-question-sq-1508-scale" value="2597" id="scenario-question-sq-1508-item-1"> <label class="break-long-url" for="scenario-question-sq-1508-item-1">Agree</label></div>
@@ -460,7 +460,7 @@
               </div>
             </div>
             <div class="custom-survey add-top-margin add-bottom-margin">
-              <span class="text">2. Our system is the best alternative.</span>
+              <span class="text">2. This system is the best alternative.</span>
               <div class="custom-radio-group-survey add-top-margin">
                 <div><input type="checkbox" name="scenario-question-sq-1508-scale" value="2596" id="scenario-question-sq-1510-item-0"> <label class="break-long-url" for="scenario-question-sq-1510-item-0">Strongly Agree</label></div>
                 <div><input type="checkbox" name="scenario-question-sq-1508-scale" value="2597" id="scenario-question-sq-1510-item-1"> <label class="break-long-url" for="scenario-question-sq-1510-item-1">Agree</label></div>
@@ -474,7 +474,7 @@
               <textarea class="custom-textbox-survey add-top-margin" placeholder="(max 500 characters)" maxlength="500"></textarea>
             </div>
             <p class="text">
-              Thanks so much for your honest feedback, we will review and we believe u like our system.
+              Thanks so much for your honest feedback, our team will review and we believe u like the system.
             </p>
           </div>
         </div>
